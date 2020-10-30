@@ -71,7 +71,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -84,11 +84,13 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  border: solid black 3px;
 } 
 .location {
   background-color: #efefef;
   color: black;
   font-weight: bold;
+  border: solid black 3px;
 }
 .card {
   margin: 30px;
